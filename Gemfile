@@ -25,6 +25,7 @@ gem 'jbuilder', '~> 2.7'
 platforms :mswin do 
   gem "wdm", :group => [:development, :test]
 end
+gem "paperclip"
 # gem 'wdm', '>= 0.1.0' 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
