@@ -16,9 +16,14 @@
       <%= f.submit %>
     </p>
     <p>
-      <%= f.label :image, "Attach an Image" %><br />
+       <% if @article.image.exists? %>
+      <%= image_tag @article.image.url %><br/>
+      <% end %>
+      <%= f.label :image, "Attach a New Image" %><br />
       <%= f.file_field :image %>
     </p>
+
+
 
     <p>
       <%= f.label :tag_list %><br />
