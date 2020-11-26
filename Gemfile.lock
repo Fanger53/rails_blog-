@@ -227,11 +227,8 @@ DEPENDENCIES
   byebug
   capybara (>= 2.15)
   jbuilder (~> 2.7)
-<<<<<<< HEAD
   paperclip
-=======
   pg
->>>>>>> 9d74b0a2d28823489993b67ded18d6e46475757d
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.4)
   sass-rails (>= 6)
